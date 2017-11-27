@@ -1,15 +1,4 @@
-@font-face {
-  font-family: 'icomoon';
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-/* =======================================================
-*
-* 	Template Style 
-*
-* ======================================================= */
+
 body {
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 300;
@@ -53,13 +42,13 @@ body {
 }
 
 a {
-  color: #f54c53;
+  color: #CC0033;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #f54c53;
+  color: #cc0033;
   outline: none;
   text-decoration: none;
 }
@@ -582,7 +571,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #f54c53;
+  color: #cc0033;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -810,7 +799,7 @@ form label {
 .feature-center h3 {
   font-size: 20px;
   margin-bottom: 20px;
-  color: #f54c53;
+  color: #cc0033;
   position: relative;
 }
 
@@ -1233,9 +1222,9 @@ form label {
   border-bottom: none !important;
 }
 @media screen and (max-width: 768px) {
-  .gtco-nav-toggle {
+/*  .gtco-nav-toggle {
     display: block;
-  }
+  }*/
 }
 
 .btn {
@@ -1265,9 +1254,9 @@ form label {
 }
 
 .btn-primary {
-  background: #f54c53;
+  background: #cc0033;
   color: #fff;
-  border: 2px solid #f54c53 !important;
+  border: 2px solid #cc0033 !important;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #f6646a !important;
@@ -1841,4 +1830,3 @@ form label {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
