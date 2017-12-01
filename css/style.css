@@ -64,6 +64,13 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0 0 20px 0;
 }
 
+.headerstyle {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/lcbanner.jpg); 
+  background-size: cover; 
+  height: auto; 
+  padding-bottom: 100px;
+}
+
 ::-webkit-selection {
   color: #fff;
   background: #f54c53;
@@ -96,6 +103,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   padding: 20px 0;
   z-index: 1001;
+  background-color: #cc0033;
 }
 @media screen and (max-width: 768px) {
   .gtco-nav {
@@ -433,14 +441,18 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .gtco-cover {
-  height: 900px;
-  background-size: cover;
+  /*height: 900px;*/
+  /*background-size: cover;*/
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
   float: left;
   width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/lcbanner.jpg); 
+  height: auto; 
+  padding-bottom: 100px;
 }
+
 .gtco-cover a {
   color: #f54c53;
 }
