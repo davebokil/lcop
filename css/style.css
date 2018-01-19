@@ -267,7 +267,7 @@ h1, h2, h3, h4, h5, h6, figure {
     background: url(../images/img_4.jpg);
     background-repeat: no-repeat; 
     background-size: cover;
-  height: auto;
+    height: auto;
   }
 }
 
