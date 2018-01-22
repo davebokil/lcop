@@ -164,59 +164,7 @@
 				.removeClass('animated-fast fadeInUpMenu');
 		});
 
-	};
-
-
-	var owlCarousel = function(){
-		
-		var owl = $('.owl-carousel-carousel');
-		owl.owlCarousel({
-			items: 3,
-			loop: true,
-			margin: 20,
-			nav: true,
-			dots: true,
-			smartSpeed: 800,
-			autoHeight: true,
-			navText: [
-		      "<i class='ti-arrow-left owl-direction'></i>",
-		      "<i class='ti-arrow-right owl-direction'></i>"
-	     	],
-	     	responsive:{
-	        0:{
-	            items:1
-	        },
-	        600:{
-	            items:2
-	        },
-	        1000:{
-	            items:3
-	        }
-	    	}
-		});
-
-
-		var owl = $('.owl-carousel-fullwidth');
-		owl.owlCarousel({
-			items: 1,
-			loop: true,
-			margin: 20,
-			nav: true,
-			dots: true,
-			smartSpeed: 800,
-			autoHeight: true,
-			navText: [
-		      "<i class='ti-arrow-left owl-direction'></i>",
-		      "<i class='ti-arrow-right owl-direction'></i>"
-	     	]
-		});
-
-
-		
-
-	};
-
-	
+	};	
 
 	var goToTop = function() {
 
@@ -278,14 +226,9 @@
 		burgerMenu();
 		contentWayPoint();
 		dropdown();
-		owlCarousel();
 		goToTop();
 		loaderPage();
 		counterWayPoint();
 	});
-
-
-var contactform = document.getElementById('contact');
-contactform.setAttribute('action', '//formspree.io/' + 'mtr72' + '@' + 'docs' + '.' + 'rutgers' + '.' + 'edu');
 
 }());
